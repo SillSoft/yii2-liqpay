@@ -2,8 +2,6 @@
 
 namespace sillsoft\liqpay\components;
 
-
-use common\modules\liqPay\components\LiqpayApi;
 use Yii;
 
 /**
