@@ -3,6 +3,7 @@
 namespace sillsoft\liqpay\models;
 
 use yii\behaviors\TimestampBehavior;
+use yii\db\ActiveRecord;
 
 /**
  * This is the model class for table "liqpay_payment".
@@ -56,7 +57,7 @@ use yii\behaviors\TimestampBehavior;
  * @property int|null $created_at
  * @property int|null $updated_at
  */
-class LiqpayPayment extends \common\models\base\ActiveRecord
+class LiqpayPayment extends ActiveRecord
 {
     /**
      * @return array
