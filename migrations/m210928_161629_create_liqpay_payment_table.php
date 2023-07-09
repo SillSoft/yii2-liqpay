@@ -1,7 +1,5 @@
 <?php
 
-namespace sillsoft\liqpay\migrations;
-
 use yii\db\Migration;
 
 /**
