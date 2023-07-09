@@ -22,7 +22,7 @@ class Liqpay
     public function __construct()
     {
         $module = Yii::$app->getModule('liqpay');
-        $this->api = new LiqPayApi($module->publicKey, $module->privateKey);;
+        $this->api = new LiqpayApi($module->publicKey, $module->privateKey);;
     }
 
     /**
