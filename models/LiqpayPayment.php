@@ -153,6 +153,6 @@ class LiqpayPayment extends ActiveRecord
      */
     public static function find()
     {
-        return new LiqPayPaymentQuery(static::class);
+        return new LiqpayPaymentQuery(static::class);
     }
 }
